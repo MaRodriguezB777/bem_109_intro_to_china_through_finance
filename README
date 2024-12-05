@@ -1,0 +1,16 @@
+Explanation of Chinese stock data:
+Daily CH-4 factors
+date: daily date
+rf_dly: 1-year bank deposit rate converted to daily rate
+mktrf: the excess return on the market
+SMB (Small-minus-big): Size factor
+VMG(Value-minus-growth) Value factor
+PMO (Pessimistic-minus-Optimistic): Turnover factor
+Unit: percentage
+
+Using S&P 500 to track US
+
+Can only use data from 2000-01-04 up to 2021-12-31
+
+
+Events timeline
