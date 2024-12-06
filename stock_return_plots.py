@@ -73,8 +73,8 @@ def show_cumulative_returns(
         # fig, axs = plt.subplots(2, 1, figsize=(12, 6))
         fig, axs = plt.subplots(1, 1, figsize=(12, 6))
         # Plot the cumulative returns
-        axs.plot(cum_strat_rets_monthly, label=strategy_name)
-        axs.plot(cum_mkt_rets_monthly, label=market_name)
+        axs.plot(cum_strat_rets, label=strategy_name)
+        axs.plot(cum_mkt_rets, label=market_name)
 
         if log_scale:
             axs.yscale("log")
