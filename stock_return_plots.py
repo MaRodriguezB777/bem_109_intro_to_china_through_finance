@@ -140,7 +140,7 @@ china.info()
 china_mkt_ret_vec = china["mktrf"] + china["rf_dly"]
 china_mkt_ret_vec.head()
 show_cumulative_returns(china_mkt_ret_vec, us_mkt_ret_vec, ret_port_style="Chinese Market", strategy_name="China Market", log_scale=False, show_plots=True, save=True)
-def plot_shit(start_date, val_date):
+def plotting(start_date, val_date):
     ff3 = load_ff3(start_date, val_date)
     china = load_china(start_date, val_date)
     us_mkt_ret_vec = ff3["Mkt-RF"] + ff3["RF"]
@@ -149,4 +149,4 @@ def plot_shit(start_date, val_date):
     show_cumulative_returns(china_mkt_ret_vec, us_mkt_ret_vec, ret_port_style="Chinese Market", strategy_name="China Market", log_scale=False, show_plots=True, save=True)
 
 # Just change this to be the correct dates
-plot_shit("20200101", "20211231")
+plotting("20200101", "20211231")
